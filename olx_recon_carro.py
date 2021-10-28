@@ -50,10 +50,8 @@ class Multi:
         self.reconectar()
         #def comecar():
         #    #aproveitando a funcao reconectar para conectar com a conta de acordo com o horario
-        #    ## o primeiro vai logar em jf pq sempre serão os mais recentes
-        #    #self.logar('danielrpmg1@hotmail.com','X-openolx03%','https://mg.olx.com.br/regiao-de-juiz-de-fora/autos-e-pecas/carros-vans-e-utilitarios?ps=13000&rs=19','18:00')
-        #    ###o segundo é regiao do rio
-        #    #self.logar('danielrpmg2@hotmail.com','X-openolx03%','https://rj.olx.com.br/serra-angra-dos-reis-e-regiao/autos-e-pecas/carros-vans-e-utilitarios?ps=20000&rs=19','22:00')
+        #    #self.logar('emailaqui','senhaaqui','URL DA SUA PESQUISA AQUI','18:00')
+        #    #self.logar('emailaqui','senhaaqui','URL DA SUA PESQUISA AQUI','22:00')
         #    ##coloco outra conta para logar, respeitando o horario fim da outra
         #    time.sleep(5)
         #pass
@@ -218,11 +216,11 @@ class Multi:
         minuto = int(meio_expediente.split(':')[1])
         if horario_atual.hour >= hora and horario_atual.minute >=minuto:
             #segunda opção de conta
-            self.logar('daniel23ctb@hotmail.com','X-openolx03%','https://mg.olx.com.br/regiao-de-juiz-de-fora/regiao-de-juiz-de-fora/juiz-de-fora/autos-e-pecas/carros-vans-e-utilitarios?f=p&ps=15000&re=28&rs=20','18:00')
-            #self.logar('danielrpmg2@hotmail.com','X-openolx03%','https://rj.olx.com.br/serra-angra-dos-reis-e-regiao/autos-e-pecas/carros-vans-e-utilitarios?ps=20000&rs=19','22:00')
+            self.logar('emailaqui','senhaaqui','URL DA SUA PESQUISA AQUI','18:00')
+            #self.logar('emailaqui','senhaaqui','URL DA SUA PESQUISA AQUI','22:00')
         else:
             #primeira opção de conta
-            self.logar('daniel23ctb@hotmail.com','X-openolx03%','https://mg.olx.com.br/regiao-de-juiz-de-fora/regiao-de-juiz-de-fora/juiz-de-fora/autos-e-pecas/carros-vans-e-utilitarios?f=p&ps=15000&re=28&rs=20','18:00')
+            self.logar('emailaqui','senhaaqui','URL DA SUA PESQUISA AQUI','18:00')
             
             pass
     pass
